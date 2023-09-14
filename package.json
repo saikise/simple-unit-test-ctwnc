@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@types/node": "20.6.0",
@@ -20,7 +21,9 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "cypress": "^13.2.0",
     "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-cypress": "^2.14.0",
     "sass": "^1.67.0"
   }
 }
